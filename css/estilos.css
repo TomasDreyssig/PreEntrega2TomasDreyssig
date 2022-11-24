@@ -12,11 +12,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-size: 170%;
     font-style: oblique;
-    color:rgb(134, 134, 134)
+    
 }
 
 li a{
@@ -160,6 +159,12 @@ h3 {
 /*media query para dispositivos pequeños Artistas*/
 @media screen and (max-width:576px) {
 
+    .navegacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    }
     .container img {
         display: flex;
         flex-direction: column;
